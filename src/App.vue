@@ -27,3 +27,13 @@ export default {
 // }
 //
 </script>
+
+<style>
+body {
+  background: #1488cc;
+  /* fallback for old browsers */
+  background: linear-gradient(to left, #726a6acb, #000000);
+  height: 100vh;
+  font-family: "Josefin Sans", sans-serif;
+}
+</style>
