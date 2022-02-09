@@ -12,7 +12,7 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 .card-group {
   position: absolute;
   top: 50%;
