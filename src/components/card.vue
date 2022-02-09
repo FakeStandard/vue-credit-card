@@ -1,8 +1,8 @@
 <template>
   <div class="card-group">
     <div class="card">
-      <div class="logo"><img src="../assets/visa.png" alt="Visa" /></div>
-      <div class="chip"><img src="../assets/chip.png" alt="Chip" /></div>
+      <div class="logo"><img src="../vue-credit-card/assets/visa.png" alt="Visa" /></div>
+      <div class="chip"><img src="../vue-credit-card/assets/chip.png" alt="Chip" /></div>
       <div class="number">8888 8888 8888 8888</div>
       <div class="name">RILEY LIN</div>
       <div class="ring"></div>
@@ -11,7 +11,7 @@
     </div>
   </div>
 </template>
-
+d
 <style>
 .card-group {
   position: absolute;
