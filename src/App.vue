@@ -1,6 +1,8 @@
 <template>
+  <div id="app">
     <circles />
     <card />
+  </div>
 </template>
 
 //
@@ -9,7 +11,7 @@ import circles from "./components/circle.vue";
 import card from "./components/card.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     circles,
     card,
