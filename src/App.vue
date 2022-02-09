@@ -1,39 +1,30 @@
 <template>
-  <div id="app">
-    <circles />
-    <card />
+  <div id="nav">
+    <router-link to="/">Home</router-link> |
+    <router-link to="/about">About</router-link>
   </div>
+  <router-view/>
 </template>
 
-//
-<script>
-import circles from "./components/circle.vue";
-import card from "./components/card.vue";
+<style lang="scss">
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 
-export default {
-  name: "App",
-  components: {
-    circles,
-    card,
-  },
-};
-// import HelloWorld from './components/HelloWorld.vue'
+#nav {
+  padding: 30px;
 
-// export default {
-//   name: 'App',
-//   components: {
-//     HelloWorld
-//   }
-// }
-//
-</script>
+  a {
+    font-weight: bold;
+    color: #2c3e50;
 
-<style>
-body {
-  background: #1488cc;
-  /* fallback for old browsers */
-  background: linear-gradient(to left, #726a6acb, #000000);
-  height: 100vh;
-  font-family: "Josefin Sans", sans-serif;
+    &.router-link-exact-active {
+      color: #42b983;
+    }
+  }
 }
 </style>
